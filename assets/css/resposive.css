@@ -1,0 +1,14 @@
+@media (max-width: 576px) {
+    .news .news-bottom {
+        /* white-space: nowrap; */
+    }
+    header .container-fluid .row .col-right{
+        display: none;
+    }
+    .active{
+        display: none;
+    }
+    .hidden{
+        display: flex;
+    }
+}

@@ -1,0 +1,477 @@
+/* 1. CSS HEADER 
+   2. CSS BANNER
+   3. CSS automatically
+   4. CSS BACKTOP
+   5. CSS START
+
+
+*/
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /*cursor: pointer;*/
+}
+/* .hhh{
+  height: 50px;
+  width: 100px;
+  background-color: red;
+} */
+ /* #tuan{
+  position: fixed;
+ }
+ header{
+  
+ } */
+/* 1.CSS HEADER */
+ /* header top */
+ .row-top{
+  background-color: rgb(242, 241, 241);
+ }
+ /* .col-left-mgt{
+  margin-top: 5px;
+ } */
+ .col-left{
+  box-sizing: border-box;
+ }
+ .right-brick{
+  height: 35px;
+  border-right: 1px solid rgb(177, 166, 166);
+ }
+ .col{
+  margin: 5px 0px 5px 50px;
+ }
+ .filter-nav{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 25px;
+ }
+/* header-top */
+/* header-betwwen */
+ .row-betwen{
+  height: 120px;
+ }
+ .col-left-betwen{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-content: space-between;
+ }
+ .col-left-betwen .logo{
+  margin-right: 40px;
+ }
+ .information{
+  display: inline;
+  align-self: center;
+  margin-bottom: 15px;
+ }
+ .hvred{
+  color: red;
+  font-size: 18px;
+ }
+ .fiter{
+  margin-left: 10px;
+ }
+ .fiter:hover{
+  color: orange;
+ }
+.phone{
+  margin-bottom: 20px;
+}
+.col-right{
+  display: grid;
+}
+#col-right-top{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.cl-right{
+  position: relative;
+  color: rgb(1, 198, 117);
+}
+.hotline{
+  margin-right: 20px;
+}
+.dnhap .cl-right a{
+  text-decoration: none;
+  color: rgb(1, 198, 117);
+}
+.search{
+
+}
+.input-group{
+  width: 70%;
+  float: right;
+}
+.input-group-text{
+  border-radius: 15px;
+}
+.input-group input{
+  background-color: rgb(231, 231, 231);
+  border-radius: 18px;
+}
+#addon-wrapping{
+  background-color: rgb(14, 165, 92);
+}
+.addon-wrapping-item{
+  color: white;
+}
+.hotline-menu{
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 5px 5px #aaaaaa;
+  padding: 15px 0px;
+  list-style: none;
+  width: 200px;
+  height: 300px;
+  display: none;
+}
+.cl-right:hover .hotline-menu{
+  display: block;
+}
+.hotline-menu .hotline-menu-blur{
+  color: rgb(155, 152, 152);
+}
+.hotline-menu a{
+color: black;
+text-decoration: none;
+}
+/* header-betwen */
+
+/* hearder-btom */
+ .row-btom{
+  background-color: rgb(98, 166, 87);
+ }
+ .container-fluid-magin{
+  margin: 0px 50px;
+ }
+
+ .nav-home{
+  background-color: red;
+  color: white;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+ }
+ .nav-item{
+  margin-left: 20px;
+  position: relative;
+ }
+.nav-item:hover .sub-menu{
+  display: block;
+}
+.nav-item .sub-menu{
+  z-index: 1;
+  width: 200px;
+  height: 170px;
+  position: absolute;
+  background-color: rgb(98, 166, 87);
+  display: none;
+}
+.sub-menu li{
+  list-style: none;
+  /* padding-right: 100px; */
+  float: left;
+  margin: 10px 0px;
+}
+.sub-menu li a{
+  text-decoration: none;
+  color: white;
+}
+.sub-menu li a:hover{
+  color: orange;
+}
+ 
+/* header-botom */
+
+/* 2. CSS BANNER */
+section{
+  width: 100%;
+  /* max-height: 800px; */
+ }
+ .banner{
+  width: 100%;
+  /* height: 250px; */
+  background-color: rgb(221, 219, 219);
+}
+.row-element{
+  margin: 0px 110px;  
+}
+
+/* dịnh nghĩa cột */
+.col-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*  */
+.row-element.col-top:hover{
+  background-color: rgb(88, 88, 88);
+}
+.col-top-f{
+  border: 1px solid rgb(61, 57, 57);
+}
+.col-top-pre{
+  font-size: 24px;
+}
+.text{
+  font-weight: 900;
+}
+.hightline{
+  color:  rgb(14, 165, 92);
+}
+.banner .row-element .col-top{
+  background-color: white;
+  margin: 15px 10px ;
+  height: 95px;
+}
+.mrr-banner{
+   background-color: white;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-item a{
+  text-decoration: none;
+}
+/* 3. CSS automatically */
+.hidden {
+  display: none; /* Ẩn các phần tử ban đầu */
+}
+.container-automatically{
+  width: 100%;
+  height: 150px;
+}
+.row-tour{
+  margin-top: 50px;
+}
+.text-bottom{
+  text-align: center;
+}
+
+
+/* 4.CSS BACKTOP */
+#backtop{
+
+  width: 50px;
+  height: 50px;
+  background: tomato;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  cursor: pointer;
+}
+
+ /* 5. CSS START */
+ .container-start{
+  height: 150px;
+}
+.row-start{
+  height: 130px;
+  margin: 0px 120px;
+}
+.container-start .row-start .col-top{
+  margin: 10px 0px;
+}
+.container-start .row-start .col-top a{
+  text-decoration: none;
+  padding-left: 30px;
+}
+.container-start .row-start .col-top a i{
+  font-size: 38px;
+  color: aliceblue;
+}
+.container-start .row-start a .text{
+  padding-left: 30px ;
+    /* padding-top: 20px; */
+    color: white;
+    /* margin-top: 20px; */
+    position: relative;
+    bottom: 15px;
+}
+.container-start .row-start a .text:hover{
+  color: orange;
+}
+
+/* 6. CSS container-shop */
+
+.row-shop-top{
+  background-color: rgb(98, 166, 87);
+  /* height: 40px; */
+}
+.row-shop-top .col{
+  height: 40px;
+  margin: 5px 0px;
+}
+.row-shop-bottom{
+  min-height: 500px;
+  margin: 10px -23px 0px -23px;
+}
+.mrr{
+  background-color: rgb(244, 242, 243);
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.mrr .pic:hover img{
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+.mrr .pic a img{
+  width: 100%;
+  border-radius: 10px 10px 0px 0px ;
+  transition: all 0.3s ease-in-out;
+}
+.mrr .pic .sale a .pic-sale{
+  width: auto;
+  position: absolute;
+  top: 0;
+}
+.from{
+  width: 35%;
+  height: 20px;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0px 10px 0px 0px;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+.distance{
+  margin: 10px 10px;
+}
+.time-and-price{
+  display: flex;
+  justify-content: space-between;
+}
+.time-and-price .time{
+  padding: 0;
+}
+.price{
+  list-style: none;
+}
+#check{
+  margin-top: 21px;
+}
+#check a{
+  text-decoration: none;
+  color:rgb(16, 185, 103); ;
+}
+#check a:hover{
+  text-decoration: underline;
+}
+
+/* 7. container-tourdoan */
+.container-tourdoan{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.container-tourdoan .row .col{
+  margin: 0px;
+  padding: 0px;
+}
+.container-tourdoan a img{
+  width: 100%;
+}
+/* 8.CSS container-prize */
+.prize-text{
+  font-size: 28px;
+}
+.container-prize{
+  padding-top: 50px;
+}
+/* 9.CSS container-advertisement */
+.container-advertisement{
+  /* height: 400px; */
+  background-color: rgb(244, 242, 243);
+}
+.advertisement-item{
+  min-height: 300px;
+  margin: 30px 0px;
+}
+.news{
+  list-style: none;
+  padding: 10px 0px;
+}
+.news .news-top{
+ color: rgb(68, 143, 56);
+ font-family: 900;
+}
+
+.news .news-betwen a{
+ text-decoration: none;
+ color: rgb(110, 9, 35);
+ font-weight: 900;
+}
+.news .news-betwen a:hover{
+  color: rgb(131, 211, 119); ;
+}
+.news .news-bottom{
+  font-size: 12px;
+  width: 100%;
+  white-space: normal;
+}
+.advertisement-item a img{
+  width: 100%;
+}
+
+/*10. CSS container-footer */
+.container-footer{
+  max-height: 460px;
+}
+.container-footer .row{
+  background-color: rgb(98, 166, 87);
+}
+.container-footer .mb-3{
+  padding: 0px;
+}
+.container-footer .footer{
+  margin: 0px 110px;
+  background-color:  rgb(98, 166, 87);
+}
+.footer-item{
+  height: 460px;
+  list-style: none;
+}
+.footer-item .text-footer{
+  margin: 20px 0px ;
+  color: white;
+}
+/*11. CSS container-footertop */
+.container-footertop{
+  
+  background-color: rgb(244, 242, 243);
+}
+.footer-top{
+  margin: 0px 0px 0px 110px;
+}
+.text-footertop{
+  margin: 10px 0px;
+}
+.text-footertop a{
+  text-decoration: none;
+  color: black;
+}
+.footer-topitem{
+  list-style: none;
+}
